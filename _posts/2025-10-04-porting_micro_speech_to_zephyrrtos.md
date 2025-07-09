@@ -1,8 +1,8 @@
 ---
 title: Porting Micro Speech model to Zephyr RTOS 
 date: 2025-04-10
-categories: [GSoC'25]
-tags: [GSoC'25]     # TAG names should always be lowercase
+categories: [Embedded-ML]
+tags: [Embedded-ML]     # TAG names should always be lowercase
 ---
 # Introduction to micro_speech model from TFLite 
 
