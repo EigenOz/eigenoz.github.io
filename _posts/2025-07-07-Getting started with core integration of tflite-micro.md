@@ -2,7 +2,7 @@
 title: Getting started with core integration of tflite-micro
 date: 2025-07-07
 categories: [OSPP'25]
-tages: [OSPP'25]
+tags: [OSPP'25]
 ---
 <!--
 # Getting started with OSPP @ Embox 
