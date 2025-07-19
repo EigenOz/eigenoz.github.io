@@ -49,7 +49,7 @@ To test the port, I whipped up a tiny Hello World app that simply prints “Tens
 
 A big THANK YOU to **Anton Bondarev** and **Aleksey Zhmulin** for reviewing and merging my PR.
 
-## 🔜 What’s Next? (Week 3 Goals)
+##  What’s Next? (Week 3 Goals)
 
 - Build and test Hello World and Linear Regression models under EmboxRTOS in the QEMU shell
 - Dive into implementing the Micro Speech model
