@@ -52,7 +52,7 @@ categories: [OSPP'25]
 tags: [OSPP'25, Embedded-ML, RTOS, TFLM, Embox]
 --- -->
 
-# 🚀 OSPP Week 1: Kicking Off TFLite-Micro Integration into Embox
+#  OSPP Week 1: Kicking Off TFLite-Micro Integration into Embox
 
 The results for the **Open Source Promotion Plan (OSPP) 2025** were announced on **June 28**, and I’m thrilled to share that I’ve been selected to work on the project:
 
@@ -62,7 +62,7 @@ This is a fantastic opportunity to dive deep into the **intersection of machine 
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 - **Organization**: [Embox RTOS](https://github.com/embox/embox)
 - **Mentor**: [Anton Bondarev](https://github.com/bondarev)
@@ -70,7 +70,7 @@ This is a fantastic opportunity to dive deep into the **intersection of machine 
 
 ---
 
-## 🧠 Community Bonding & Project Kickoff
+##  Community Bonding & Project Kickoff
 
 During the community bonding phase, I:
 
@@ -80,7 +80,7 @@ During the community bonding phase, I:
 
 ---
 
-## ⚙️ First Dive into TFLite Micro
+##  First Dive into TFLite Micro
 
 Before integrating TFLM directly into Embox, I wanted to understand **how TFLM is structured and built independently**.
 
@@ -91,7 +91,7 @@ TFLM provides an official [project generation script](https://github.com/tensorf
 - Build files (Makefiles)
 - Examples like `hello_world`, `magic_wand`, etc.
 
-### ✅ I successfully:
+###  I successfully:
 
 - Generated the minimal `hello_world` example.
 - Built and ran it on my local Linux machine using a **custom Makefile**.
@@ -103,7 +103,7 @@ Here's a snapshot of the successful build:
 
 ---
 
-## 🧩 Understanding Embox Integration
+##  Understanding Embox Integration
 
 Embox is a highly configurable RTOS that allows modular integration through its `Mybuild` and `Makefile` structure.
 
@@ -117,7 +117,7 @@ I’m currently testing this using **`extbld`**, Embox's extension build system 
 
 ---
 
-## 🧗 Challenges Faced
+##  Challenges Faced
 
 Here are some early hurdles and how I’m tackling them:
 
@@ -129,7 +129,7 @@ Here are some early hurdles and how I’m tackling them:
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 - The **project generation script** for TFLM is a goldmine—provides clean structure for new platform porting.
 - **Embox’s build system** is flexible but requires understanding its modular compilation pipeline.
@@ -138,18 +138,18 @@ Here are some early hurdles and how I’m tackling them:
 
 ---
 
-## 🎯 Goals for Week 2
+##  Goals for Week 2
 
 Here’s what I aim to achieve next week:
 
-- ✅ Complete integration of the **TFLM core tree** into Embox’s build system.
-- 🔄 Test full compilation of **hello_world** from within Embox.
-- 📈 Add support for additional lightweight models like **linear regression**.
-- 🧪 Set up a repeatable workflow for compiling and testing inference models.
+-  Complete integration of the **TFLM core tree** into Embox’s build system.
+-  Test full compilation of **hello_world** from within Embox.
+-  Add support for additional lightweight models like **linear regression**.
+-  Set up a repeatable workflow for compiling and testing inference models.
 
 ---
 
-## 🙏 Thank You!
+##  Thank You!
 
 Thanks to my mentor Anton and the Embox team for their guidance this week. The journey ahead is exciting, and I look forward to making meaningful progress.
 
@@ -159,7 +159,7 @@ Feel free to share your thoughts, feedback, or suggestions in the comments or re
 
 ---
 
-📚 **Resources**:
+ **Resources**:
 
 - [TFLite Micro GitHub](https://github.com/tensorflow/tflite-micro)
 - [Embox GitHub](https://github.com/embox/embox)
