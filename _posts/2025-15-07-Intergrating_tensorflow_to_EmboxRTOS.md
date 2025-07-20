@@ -11,9 +11,8 @@ Ever wondered what it takes to get **TensorFlow Lite Micro (tflite-micro)** runn
 
 ## Why Port TensorFlow Lite Micro to Embox RTOS?
 
-While exploring how platforms like **Zephyr RTOS**, **ESP-IDF**, **Arduino**, and **Adafruit** brought tflite-micro aboard (mostly back in 2021, when it was still part of the original TensorFlow repo), I stumbled upon a twist—TensorFlow Lite Micro spun off as its own project! Suddenly, Makefile support was deprecated, and it’s now *Bazel* and *CMake* everywhere. Yikes!
+While exploring how platforms like **Zephyr RTOS**, **ESP-IDF**, **Arduino**, and **Adafruit** brought tflite-micro aboard (mostly back in 2021, when it was still part of the original TensorFlow repo), I stumbled upon a twist—TensorFlow Lite Micro spun off as its own project! Suddenly, Makefile support was deprecated, and it’s now *Bazel* and *CMake* everywhere.
 
-But I wasn’t going to let that stop me.
 
 ## The DIY Porting Recipe
 
@@ -27,7 +26,7 @@ To port tflite-micro onto Embox, here’s what I had to do:
    - `flatbuffers`
 
 2. **Build Like a Boss:**  
-   - Bundle these dependencies straight into the Makefile (yes, old school!)  
+   - Bundle these dependencies straight into the Makefile  
    - Wire everything up within Mybuild so all source files and executables go into a temporary build folder.
 
 3. **Create the Static Library:**  
@@ -36,7 +35,6 @@ To port tflite-micro onto Embox, here’s what I had to do:
 
 ## Hurdles Along the Way
 
-Even fun adventures have their fair share of speed bumps:
 
 - **Linking Maze:**  
   Figuring out how to link files and executables in both the Makefile and Mybuild was way trickier than expected.
