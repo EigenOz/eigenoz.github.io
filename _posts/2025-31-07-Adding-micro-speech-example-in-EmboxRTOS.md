@@ -1,5 +1,5 @@
 ---
-title: Adding `Micro-Speech` (Sine Wave) Example to Embox RTOS  
+title: Adding `Micro-Speech` Example to Embox RTOS  
 date: 2025-07-31  
 categories: [OSPP'25]  
 tags: [OSPP'25]  
